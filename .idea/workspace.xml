@@ -1,11 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fe736db-b0d4-4036-9dd5-006d22fc7708" name="Changes" comment="" />
+    <list default="true" id="1fe736db-b0d4-4036-9dd5-006d22fc7708" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/CreateOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/CreateUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/EditUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/GetOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/LoginUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/constants/BaseConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/constants/OrderConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/constants/UserConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/BasicResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/GetAllIngredientsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/GetIngredientResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/GetOrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/GetUserOrdersResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/NestedOrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/NestedUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/SignInRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/SuccessCreateOrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/SuccessPatchUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/SuccessSignInSignUpResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/steps/OrderSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/steps/UsersSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/utils/ConfigFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/utils/OrderUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/utils/UsersUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HV9epdCWo4teiQlSBKMPk2us7U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,9 +63,106 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Mados/Desktop/Diplom/QA-java-diplom-2/src/test/java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mados\Desktop\Diplom\QA-java-diplom-2\src\test\java" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn verify" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.LoginUserTest">
+    <configuration name="CreateOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.practicum.diplom2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.practicum.diplom2" />
+      <option name="MAIN_CLASS_NAME" value="ru.practicum.diplom2.CreateOrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.practicum.diplom2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.practicum.diplom2" />
+      <option name="MAIN_CLASS_NAME" value="ru.practicum.diplom2.CreateUserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.practicum.diplom2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.practicum.diplom2" />
+      <option name="MAIN_CLASS_NAME" value="ru.practicum.diplom2.EditUserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.practicum.diplom2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.practicum.diplom2" />
+      <option name="MAIN_CLASS_NAME" value="ru.practicum.diplom2.GetOrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA-java-diplom-2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.practicum.diplom2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.practicum.diplom2" />
+      <option name="MAIN_CLASS_NAME" value="ru.practicum.diplom2.LoginUserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LoginUserTest" />
+        <item itemvalue="JUnit.GetOrderTest" />
+        <item itemvalue="JUnit.EditUserTest" />
+        <item itemvalue="JUnit.CreateUserTest" />
+        <item itemvalue="JUnit.CreateOrderTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,5 +173,16 @@
       <updated>1668359495875</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
