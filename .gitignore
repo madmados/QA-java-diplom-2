@@ -36,3 +36,11 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+/shelf/
+/workspace.xml
+/.allure/
+/.idea/
+!/target/
+/target/**
+!/target/site/
