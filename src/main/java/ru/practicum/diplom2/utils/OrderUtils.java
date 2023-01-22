@@ -1,6 +1,7 @@
 package ru.practicum.diplom2.utils;
 
-import ru.practicum.diplom2.pojos.*;
+import ru.practicum.diplom2.pojos.GetAllIngredientsResponse;
+import ru.practicum.diplom2.pojos.GetIngredientResponse;
 
 import java.util.ArrayList;
 import java.util.List;

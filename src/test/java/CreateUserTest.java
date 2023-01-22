@@ -1,5 +1,3 @@
-package ru.practicum.diplom2;
-
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.Response;
 import org.junit.Assert;

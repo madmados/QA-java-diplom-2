@@ -1,10 +1,8 @@
-package ru.practicum.diplom2;
-
+import ru.practicum.diplom2.pojos.GetUserOrdersResponse;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Assert;
 import org.junit.Test;
 import ru.practicum.diplom2.pojos.BasicResponse;
-import ru.practicum.diplom2.pojos.GetUserOrdersResponse;
 import ru.practicum.diplom2.steps.OrderSteps;
 
 public class GetOrderTest extends BaseTest {

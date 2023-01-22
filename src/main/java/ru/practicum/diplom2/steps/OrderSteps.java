@@ -1,34 +1,35 @@
 package ru.practicum.diplom2.steps;
 
+import io.restassured.RestAssured;
+import ru.practicum.diplom2.constants.BaseConstants;
+import ru.practicum.diplom2.constants.OrderConstants;
+import ru.practicum.diplom2.pojos.GetAllIngredientsResponse;
+import ru.practicum.diplom2.pojos.OrderRequest;
+import ru.practicum.diplom2.utils.OrderUtils;
 import io.qameta.allure.Step;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.apache.commons.lang3.RandomStringUtils;
-import ru.practicum.diplom2.pojos.*;
-import ru.practicum.diplom2.utils.OrderUtils;
 
 import java.util.Arrays;
 import java.util.List;
 
 import static io.restassured.RestAssured.given;
-import static ru.practicum.diplom2.constants.BaseConstants.BASE_TEST_URL;
-import static ru.practicum.diplom2.constants.OrderConstants.BASE_INGREDIENTS_URL;
-import static ru.practicum.diplom2.constants.OrderConstants.BASE_ORDERS_URL;
 
 public class OrderSteps {
     public static final RequestSpecification REQUEST_SPECIFICATION =
             new RequestSpecBuilder()
-                    .setBaseUri(BASE_TEST_URL)
-                    .setBasePath(BASE_ORDERS_URL)
+                    .setBaseUri(BaseConstants.BASE_TEST_URL)
+                    .setBasePath(OrderConstants.BASE_ORDERS_URL)
                     .setContentType(ContentType.JSON)
                     .build();
 
     public static final RequestSpecification INGREDIENTS_REQUEST_SPECIFICATION =
             new RequestSpecBuilder()
-                    .setBaseUri(BASE_TEST_URL)
-                    .setBasePath(BASE_INGREDIENTS_URL)
+                    .setBaseUri(BaseConstants.BASE_TEST_URL)
+                    .setBasePath(OrderConstants.BASE_INGREDIENTS_URL)
                     .setContentType(ContentType.JSON)
                     .build();
 
@@ -42,7 +43,7 @@ public class OrderSteps {
 
         OrderRequest orderRequest = new OrderRequest(OrderUtils.getRandomIngredients(allIngredientsResponse));
 
-        return given()
+        return RestAssured.given()
                 .spec(REQUEST_SPECIFICATION)
                 .header("Authorization", accessToken)
                 .body(orderRequest)
@@ -52,7 +53,7 @@ public class OrderSteps {
 
     @Step("Создание нового заказа без ингредиентов с авторизацией")
     public static Response createOrderWithoutIngredients(String accessToken) {
-        return given()
+        return RestAssured.given()
                 .spec(REQUEST_SPECIFICATION)
                 .header("Authorization", accessToken)
                 .body(new OrderRequest())
@@ -67,7 +68,7 @@ public class OrderSteps {
 
         List<String> randomIngredients = OrderUtils.getRandomIngredients(allIngredientsResponse);
 
-        return given()
+        return RestAssured.given()
                 .spec(REQUEST_SPECIFICATION)
                 .body(new OrderRequest(randomIngredients))
                 .when()
@@ -79,7 +80,7 @@ public class OrderSteps {
         List<String> wrongIngredientsList = Arrays.asList(RandomStringUtils.randomAlphanumeric(10),
                 RandomStringUtils.randomAlphanumeric(10));
 
-        return given()
+        return RestAssured.given()
                 .spec(REQUEST_SPECIFICATION)
                 .body(new OrderRequest(wrongIngredientsList))
                 .when()
@@ -88,7 +89,7 @@ public class OrderSteps {
 
     @Step("Получение заказов конкретного пользователя с авторизацией")
     public static Response getUsersOrdersWithAuth(String accessToken) {
-        return given()
+        return RestAssured.given()
                 .spec(REQUEST_SPECIFICATION)
                 .header("Authorization", accessToken)
                 .when()
@@ -97,7 +98,7 @@ public class OrderSteps {
 
     @Step("Получение заказов конкретного пользователя без авторизации")
     public static Response getUsersOrdersWithoutAuth() {
-        return given()
+        return RestAssured.given()
                 .spec(REQUEST_SPECIFICATION)
                 .when()
                 .get();
@@ -105,7 +106,7 @@ public class OrderSteps {
 
     @Step("Получение списков всех ингредиентов")
     public static Response getAllIngredients() {
-        return given()
+        return RestAssured.given()
                 .spec(INGREDIENTS_REQUEST_SPECIFICATION)
                 .when()
                 .get();

@@ -5,38 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fe736db-b0d4-4036-9dd5-006d22fc7708" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/CreateOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/CreateUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/EditUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/GetOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/LoginUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/constants/BaseConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/constants/OrderConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/constants/UserConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/BasicResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/GetAllIngredientsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/GetIngredientResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/GetOrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/GetUserOrdersResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/NestedOrderInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/NestedUserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/SignInRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/SuccessCreateOrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/SuccessPatchUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/SuccessSignInSignUpResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/UserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/steps/OrderSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/steps/UsersSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/utils/ConfigFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/utils/OrderUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/utils/UsersUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/CreateOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/CreateUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/EditUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EditUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/GetOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/LoginUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/constants/BaseConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/constants/BaseConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/constants/OrderConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/constants/OrderConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/constants/UserConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/constants/UserConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/BasicResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/pojos/BasicResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/GetAllIngredientsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/pojos/GetAllIngredientsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/GetIngredientResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/pojos/GetIngredientResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/GetOrderResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/pojos/GetOrderResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/GetUserOrdersResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/pojos/GetUserOrdersResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/NestedOrderInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/pojos/NestedOrderInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/NestedUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/pojos/NestedUserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/OrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/pojos/OrderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/SignInRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/pojos/SignInRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/SuccessCreateOrderResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/pojos/SuccessCreateOrderResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/SuccessPatchUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/pojos/SuccessPatchUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/SuccessSignInSignUpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/pojos/SuccessSignInSignUpResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/pojos/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/pojos/UserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/steps/OrderSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/steps/OrderSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/steps/UsersSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/steps/UsersSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/utils/ConfigFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/utils/ConfigFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/utils/OrderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/utils/OrderUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/practicum/diplom2/utils/UsersUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/practicum/diplom2/utils/UsersUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +52,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2HV9epdCWo4teiQlSBKMPk2us7U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -64,12 +69,21 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Mados/Desktop/Diplom/QA-java-diplom-2/src/test/java"
+    "last_opened_file_path": "C:/Users/maryi/OneDrive/Рабочий стол/test/QA-java-diplom-3",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mados\Desktop\Diplom\QA-java-diplom-2\src\test\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maryi\OneDrive\Рабочий стол\test\QA-java-diplom-2\src\test\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -78,46 +92,30 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.LoginUserTest">
-    <configuration name="CreateOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateOrderTest.createOrderWithoutIngredients400ErrorMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA-java-diplom-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.practicum.diplom2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.practicum.diplom2" />
-      <option name="MAIN_CLASS_NAME" value="ru.practicum.diplom2.CreateOrderTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateOrderTest" />
+      <option name="METHOD_NAME" value="createOrderWithoutIngredients400ErrorMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateUserTest.registerNotUniqueUserReturns403ErrorMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA-java-diplom-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.practicum.diplom2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.practicum.diplom2" />
-      <option name="MAIN_CLASS_NAME" value="ru.practicum.diplom2.CreateUserTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CreateUserTest" />
+      <option name="METHOD_NAME" value="registerNotUniqueUserReturns403ErrorMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="EditUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA-java-diplom-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.practicum.diplom2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.practicum.diplom2" />
-      <option name="MAIN_CLASS_NAME" value="ru.practicum.diplom2.EditUserTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EditUserTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,14 +123,8 @@
     </configuration>
     <configuration name="GetOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA-java-diplom-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.practicum.diplom2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.practicum.diplom2" />
-      <option name="MAIN_CLASS_NAME" value="ru.practicum.diplom2.GetOrderTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetOrderTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,14 +132,8 @@
     </configuration>
     <configuration name="LoginUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA-java-diplom-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.practicum.diplom2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.practicum.diplom2" />
-      <option name="MAIN_CLASS_NAME" value="ru.practicum.diplom2.LoginUserTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginUserTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,8 +144,8 @@
         <item itemvalue="JUnit.LoginUserTest" />
         <item itemvalue="JUnit.GetOrderTest" />
         <item itemvalue="JUnit.EditUserTest" />
-        <item itemvalue="JUnit.CreateUserTest" />
-        <item itemvalue="JUnit.CreateOrderTest" />
+        <item itemvalue="JUnit.CreateUserTest.registerNotUniqueUserReturns403ErrorMessage" />
+        <item itemvalue="JUnit.CreateOrderTest.createOrderWithoutIngredients400ErrorMessage" />
       </list>
     </recent_temporary>
   </component>
